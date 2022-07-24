@@ -1,51 +1,51 @@
 .transaction-history {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-    border-radius: 5px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  border-radius: 5px;
 
-    text-align: center;
+  text-align: center;
 
-    background-color: #ffffff;
-    color: #808184;
+  background-color: #ffffff;
+  color: #808184;
 
-    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
-        1px 4px 6px rgb(0 0 0 / 16%);
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
+    1px 4px 6px rgb(0 0 0 / 16%);
 
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .transaction-head {
-    border: 0px solid #b5b5b5;
+  border: 0px solid #b5b5b5;
 
-    background-color: #00bcd5;
-    color: #ffffff;
+  background-color: #00bcd5;
+  color: #ffffff;
 
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .transaction-title {
-    width: 33.3%;
-    padding: 15px 5px;
+  width: 33.3%;
+  padding: 15px 5px;
 }
 
 .transaction-cell {
-    padding: 15px 5px;
+  padding: 15px 5px;
 
-    text-transform: capitalize;
+  text-transform: capitalize;
 
-    transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .transaction-cell:hover,
 .transaction-cell:focus {
-    background-color: #c9dcdf;
-    transition: background-color 250ms linear;
+  background-color: #c9dcdf;
+  transition: background-color 250ms linear;
 }
 
 .transaction-row:nth-child(even) {
-    background-color: #ecf1f4;
+  background-color: #ecf1f4;
 }
